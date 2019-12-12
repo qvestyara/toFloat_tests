@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli": "^4.1.1",
+    "mocha": "^6.2.2",
+    "stryker-cli": "^1.0.0",
+    "vue": "^2.6.10",
+    "vue-cli": "^2.9.6",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@stryker-mutator/babel-transpiler": "^2.4.0",
+    "@stryker-mutator/core": "^2.4.0",
+    "@stryker-mutator/javascript-mutator": "^2.4.0",
+    "@stryker-mutator/mocha-framework": "^2.4.0",
+    "@stryker-mutator/mocha-runner": "^2.4.0",
+    "@stryker-mutator/webpack-transpiler": "^2.4.0",
+    "stryker-babel-transpiler": "^0.10.1"
+  }
+}

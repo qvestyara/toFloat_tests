@@ -1,0 +1,65 @@
+Arguments: 
+  /home/ibes/.nvm/versions/node/v10.17.0/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/ibes/.nvm/versions/node/v10.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/share/yarn/lib/cli.js:141292:19)
+      at Object.onceWrapper (events.js:286:20)
+      at ClientRequest.emit (events.js:198:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+      at Object.onceWrapper (events.js:286:20)
+      at TLSSocket.emit (events.js:198:13)
+      at TLSSocket.Socket._onTimeout (net.js:443:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha --require @babel/register"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@vue/cli": "^4.1.1",
+      "mocha": "^6.2.2",
+      "stryker-cli": "^1.0.0",
+      "vue": "^2.6.10",
+      "vue-cli": "^2.9.6",
+      "webpack": "^4.41.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.7.5",
+      "@babel/preset-env": "^7.7.6",
+      "@stryker-mutator/babel-transpiler": "^2.4.0",
+      "@stryker-mutator/core": "^2.4.0",
+      "@stryker-mutator/javascript-mutator": "^2.4.0",
+      "@stryker-mutator/mocha-framework": "^2.4.0",
+      "@stryker-mutator/mocha-runner": "^2.4.0",
+      "@stryker-mutator/webpack-transpiler": "^2.4.0",
+      "stryker-babel-transpiler": "^0.10.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
